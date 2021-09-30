@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Karoline Ribeiro</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <img src="./assets/logo.png" />
+      </div>
+    </header>
+
+    <section class="container">
+      <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+          <li
+            data-bs-target="#carouselId"
+            data-bs-slide-to="0"
+            class="active"
+          ></li>
+          <li data-bs-target="#carouselId" data-bs-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+            <img
+              src="./assets/photo-1587620962725-abab7fe55159.jpg"
+              alt="Computer - Photo by James Harrison on Unsplash"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/10168.jpg"
+              alt="Illustration - Photo by pch.vector on Freepik"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselId"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselId"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="row">
+        <div class="col-md-8 col-sm-12">
+          <h1>Karoline Ribeiro</h1>
+          <h6>
+            Oceanóloga | Analista Ambiental | Estudante de Desenvolvimento de
+            Software
+          </h6>
+          <p>
+            Gaúcha de 25 anos e morando em São Paulo, trabalho como analista
+            técnica ambiental na área de geofísica aquática desde 2019. Sou formada em
+            Oceanologia pela Universidade Federal do Rio Grande (FURG). Decidi
+            migrar para a área de tecnologia e atualmente sou estudante de
+            Desenvolvimento de Software Multiplataforma na FATEC Osasco. </p>
+            <p>
+            Possuo foco em front-end, usando no momento html, csss, js. Em breve
+            pretendo também iniciar cursos para aprender mais sobre frameworks.
+          </p>
+          <p>
+            Sou muito criativa, desde muito jovem já utilizava edição de imagens
+            e possuo vasto conhecimento em Photoshop, adquirido de forma
+            independente. No atual trabalho, além da parte técnica voltada a
+            geofísica, criei diversos produtos para as redes sociais da empresa,
+            utilizando de conhecimentos de design e marketing, para divulgar os
+            serviços oferecidos. Procuro resolver os desafios a mim propostos de
+            forma eficiente, sempre alinhados com conhecimentos técnicos e
+            atuais.
+          </p>
+
+          <a class="btn btn-primary" role="button">Entre em contato</a>
+          
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <img src="./assets/profile.jpg" />
+        </div>
+      </div>
+
+      <h2>Formação</h2>
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Oceanologia
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+             <span>Bacharel em Oceanologia - Universidade Federal do Rio Grande (FURG)</span>
+              <br>
+              <i>2014-2018</i>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                Desenvolvimento de Software Multiplataforma
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <span>Técnologo em Desenvolvimento de Software Multiplataforma - FATEC Pref. Hirant Sanazar</span>
+                <br>
+                <i>Ago/2021 - presente</i>
+                <br>
+                <span id="end">Previsão de conclusão: Jul/2024</span>
+              </div>
+            </div>
+          </div>
+      </div>
+
+
+
+      <h2>Habilidades</h2>
+      <div id="skills" class="row">
+          <div class="col-md-4 col-sm-12">
+            <div class="card" >
+                <img src="./assets/coding-g3599c0938_1920.jpg" class="card-img-top" alt="Photo by StockSnap on Pixabay">
+                <div class="card-body">
+                    <h5>Tecnologia</h5>
+                  <p class="card-text">
+                      <ul>
+                          <li>HTML 5</li>
+                          <li>CSS 3</li>
+                          <li>Javascript</li>
+                          <li>Git e Github</li>
+                          <li>MATLAB</li>
+                          <li>Redes de computadores</li>
+                          <li>Adobe Photoshop</li>
+                      </ul>
+                  </p>
+                </div>
+              </div>
+          </div>
+
+          <div class="col-md-4 col-sm-12">
+            <div class="card" >
+                <img src="./assets/survey.jpeg" class="card-img-top">
+                <div class="card-body">
+                    <h5>Geofísica aquática</h5>
+                  <p class="card-text">
+                      <ul>
+                          <li>Aquisição e análise de dados</li>
+                          <li>Planejamento de projetos</li>
+                          <li>Planejamento de campos</li>
+                          <li>Batimetria</li>
+                          <li>Sísmica</li>
+                          <li>Sonografia</li>
+                          <li>Produção de relatórios</li>
+                          <li>AutoCAD</li>
+                      </ul>
+                  </p>
+                </div>
+              </div>
+          </div>
+
+          <div class="col-md-4 col-sm-12">
+            <div class="card" >
+                <img src="./assets/young-business-people-are-discussing-new-creative-ideas-together-during-a-meeting-in-the-office.jpg" class="card-img-top" alt="Photo by standret on Freepik">
+                <div class="card-body">
+                    <h5>Demais habilidades</h5>
+                  <p class="card-text">
+                      <ul>
+                          <li>Inglês avançado</li>
+                          <li>Alemão básico</li>
+                          <li>Criativa</li>
+                          <li>Boa comunicação</li>
+                          <li>Facilidade de trabalho em equipe</li>
+                          <li>Proativa</li>
+                          <li>Dedicada</li>
+                          <li>Adptável e versátil</li>
+                      </ul>
+                  </p>
+                </div>
+              </div>
+          </div>
+      </div>
+      
+    </section>
+
+    <footer>
+        <p class="text-center">2021 - Feito por Karoline Ribeiro</p>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
